@@ -1,2 +1,36 @@
+body{
+    margin:20px;
+    font-family:Arial,sans-serif;
+}
 
-/* Your CSS Code here. */
+.player{
+    max-width:750px;
+    margin:auto;
+}
+
+.viewer{
+    width:100%;
+}
+
+.progress{
+    height:8px;
+    background:#ccc;
+    cursor:pointer;
+}
+
+.progress__filled{
+    width:0%;
+    height:100%;
+    background:#f44336;
+}
+
+.player__controls{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    padding:10px 0;
+}
+
+.player__slider{
+    flex:1;
+}
