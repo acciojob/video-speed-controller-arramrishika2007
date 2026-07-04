@@ -1,36 +1,41 @@
-body{
-    margin:20px;
-    font-family:Arial,sans-serif;
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.player{
-    max-width:750px;
-    margin:auto;
+.player {
+  max-width: 750px;
+  margin: auto;
 }
 
-.viewer{
-    width:100%;
+.player__video {
+  width: 100%;
+  display: block;
 }
 
-.progress{
-    height:8px;
-    background:#ccc;
-    cursor:pointer;
+.progress {
+  height: 8px;
+  background: #ccc;
+  cursor: pointer;
 }
 
-.progress__filled{
-    width:0%;
-    height:100%;
-    background:#f44336;
+.progress__filled {
+  width: 0%;
+  height: 100%;
+  background: #f44336;
 }
 
-.player__controls{
-    display:flex;
-    gap:10px;
-    align-items:center;
-    padding:10px 0;
+.player__controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
 }
 
-.player__slider{
-    flex:1;
+.player__button {
+  cursor: pointer;
+}
+
+.player__slider {
+  flex: 1;
 }
